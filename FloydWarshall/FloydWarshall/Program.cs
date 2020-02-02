@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FloydWarshall
 {
@@ -15,7 +12,7 @@ namespace FloydWarshall
             //przygotowanie danych
             //utworzenie tablicy
             int rozmiar_tablicy = 5; //ilosc wierzchołków grafu
-            var tablica = new int[rozmiar_tablicy, rozmiar_tablicy]; 
+            var tablica = new int[rozmiar_tablicy, rozmiar_tablicy];
 
             //wypełnienie tablicy
 
